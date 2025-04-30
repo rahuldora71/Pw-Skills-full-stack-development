@@ -1,0 +1,39 @@
+.card{
+    width: 80vw;
+    height: 80vh;
+    background-color: #c97575;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: auto;
+    overflow: auto;
+    font-size: 25px;
+}
+
+.card_name{
+    font-size: 45px;
+    text-shadow:4px 2px 1px rgb(110, 162, 241);
+    position: sticky;
+    background-color: rgb(121, 210, 115);
+    padding: 0px 10px;
+    border-radius: 15px;
+    top: 0px;
+    color:aliceblue;
+}
+.card_course{
+    text-shadow:2px 1px 0px rgb(110, 162, 241);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card_intro{
+    text-shadow:2px 1px 0px rgb(241, 110, 217);
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.card_title{
+    text-shadow:2px 1px 0px rgb(110, 241, 232);
+}
+.card_role{
+    text-shadow:2px 1px 0px rgb(255, 0, 0);
+    color:rgb(230, 246, 2);
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,66 @@
+<!-- 
+ Q 3. Develop an HTML form with various input elements. use CSS to style the form, including setting
+background colors for input fields. Create a custom color palette for the form elements, and demonstrate
+how to apply opacity to one of the form sections. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que 3</title>
+    <link rel="stylesheet" href="Que 3 style.css">
+   
+</head>
+
+<body>
+
+    <div class="card">
+        <form action="" class="sign_up_form"></form>
+        <h2>Sign Up</h2>
+        <div class="input-field">
+            <div class="input-name">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="input-email">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="input-phone">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone">
+            </div>
+            <div class="input-password">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div class="input-gender">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="">Select</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="input-checkbox" style="display: flex; flex-direction: row;
+                
+            ">
+                <input type="checkbox" id="check">
+                <label for="check">Accept the terms & conditions</label>
+            </div>
+            <div class="btn">
+                <button type="submit">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

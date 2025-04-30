@@ -1,0 +1,15 @@
+.box {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    color: burlywood;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+.box2{
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    color: burlywood;
+}

@@ -1,0 +1,53 @@
+<!--
+    Q1. Create a simple page with some div tags and show different ways to add CSS as well as what happens
+    when you target the same elements with inline, internal, and external CSS. Also, utilize comments in the
+    project where required. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que 1</title>
+
+    <!-- Example for Cascading of css -->
+    <style>
+        /* Internal Css */
+        .box2 {
+            background-color: chartreuse;
+            color: black;
+        }
+    </style>
+
+    <link rel="stylesheet" href="Que 1 style.css"> <!-- External CSS -->
+
+    <style>
+        /* Internal CSS */
+        .box {
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Specificity: Inline CSS > Internal CSS > External CSS -->
+    <div class="box" style="background-color: blue; color: aliceblue;"> <!-- Inline CSS  -->
+        <h1>Example of Css</h1>
+    </div>
+
+
+    <div class="box2">
+        <h1>Checking the Specificity of Internal and External Css</h1>
+        <!-- here the box2 is applied the background color and color of the text from the external css 
+             but we studied that the specificity of the internal css is more than the external css 
+             so the color of the text will be black and the background color will be chartreuse, 
+             
+             Here the concept of cascading is applied the external css is linked after the  internal css
+             that's why the external css is applied to the box2
+             -->
+    </div>
+</body>
+
+</html>
