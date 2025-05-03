@@ -1,0 +1,47 @@
+nav{
+            
+    padding: 5px;
+    background-color: #e0c277;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: larger;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: white;
+}
+nav li:first-child{
+    padding: 2px;
+    border: #0800ff 2px dashed;
+}
+nav li:nth-child(2){
+    padding: 2px;
+    border: #0800ff 2px dashed;
+    border-style: groove;
+
+}
+nav li:nth-child(3){
+    padding: 2px;
+    border-style: double;
+}
+nav li:nth-child(4){
+    padding: 2px;
+    border: #0800ff 2px ;
+    border-style: dotted;
+}
+nav li:nth-child(5){
+    padding: 2px;
+    border-style:inset;
+}
+nav li:nth-child(6){
+    padding: 2px;
+    border: #0800ff 2px ;
+    border-style: dashed double ;
+}

@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+p{
+    margin: auto;
+    margin-top: 25px;
+    width: 80%;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
