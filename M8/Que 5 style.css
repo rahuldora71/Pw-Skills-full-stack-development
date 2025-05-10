@@ -1,0 +1,41 @@
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+
+        }
+
+        .box_a {
+            top: 10px;
+            left: 10px;
+            background-color: blueviolet;
+            z-index: 0;
+        }
+
+        .box_b {
+            top: 60px;
+            left: 60px;
+            background-color: brown;
+            
+            z-index: 1;
+        }
+
+        .box_c {
+            top: 100px;
+            left: 100px;
+            background-color: greenyellow;
+            z-index: -1;
+        }
+
+        .box_d {
+            top: 140px;
+            background-color: lightseagreen;
+            left: 140px;
+            z-index: 3;
+        }
+
+        .box:hover {
+            background-color: rgb(57, 218, 113);
+            z-index: 4;
+        }
+    

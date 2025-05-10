@@ -1,0 +1,53 @@
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+    border: 2px solid grey;
+    text-align: center;
+    transition: 0.5s;
+
+}
+
+.box_a {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.box_b {
+    position: absolute;
+    top: 170px;
+    left: 170px;
+}
+
+.box_c {
+    position: absolute;
+    top: 170px;
+    left: 230px;
+}
+
+.box_d {
+    position: absolute;
+    top: 230px;
+    left: 170px;
+}
+
+.box_e {
+    position: absolute;
+    top: 230px;
+    left: 230px;
+}
+
+.box:hover {
+    background-color: red;
+    z-index: 1;
+    transition: 0.5s;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    scale: 1.05;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
