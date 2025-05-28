@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 20vw;
+            object-fit:cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .img1{
+            grid-column: 2 span;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img class="img1" src="image2.jpg" alt="">
+        <img src="image3.jpg" alt="">
+        <img src="image4.jpg" alt="">
+        <img src="image5.png" alt="">
+        <img src="image6.jpg" alt="">
+
+    </div>
+</body>
+</html>

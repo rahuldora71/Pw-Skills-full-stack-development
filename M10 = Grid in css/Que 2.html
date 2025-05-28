@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que 2</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+            height: 80vh;
+            margin: auto;
+        }
+        .container div{
+            background-color:burlywood;
+            padding: 20px;
+            font-size: 2rem;
+            border-radius: 10px
+        }
+        .boxa {
+            grid-column: 1 / 3;
+            
+        }
+        .boxb {
+            grid-column: 3;
+            grid-row: 1 / 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxa">A</div>
+        <div class="boxb">B</div>
+        <div class="boxc">C</div>
+        <div class="boxd">D</div>
+    </div>
+</body>
+</html>

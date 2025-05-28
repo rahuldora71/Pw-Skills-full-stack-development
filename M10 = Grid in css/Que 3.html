@@ -1,0 +1,49 @@
+<!-- 
+Explain the use of grid-auto-row and grid-auto-column using code examples. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que 3</title>
+    <style>
+ 
+   .container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(2, 100px);
+    /* 
+    grid-auto-columns and grid-auto-rows define the size of implicitly created grid items.
+    If the grid container has more items than defined in grid-template-columns and grid-template-rows,
+    these properties specify the size of those additional items.
+    In this example, there are 2 more items than defined in the template,
+    so grid-auto-columns and grid-auto-rows will apply to those items.
+     */
+    grid-auto-columns: 120px;
+    grid-auto-rows: 100px;
+    gap: 10px;
+  }
+
+  .item {
+    background-color: lightgreen;
+    border: 1px solid green;
+  }
+</style>
+</head>
+<body>
+    
+<div class="container">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div> 
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+  <div class="item">7</div> 
+  <div class="item">8</div>
+</div>
+
+</body>
+</html>
