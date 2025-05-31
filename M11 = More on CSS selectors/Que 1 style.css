@@ -1,0 +1,40 @@
+ /* B */
+
+        li>a{
+            color: red;
+        }
+        nav>h2{
+            color: blue;
+        }
+        nav>p:first-of-type{
+            color: red;
+        }
+
+        /* C */
+        a[href]{
+            color: red;
+            text-decoration: none;
+        }
+
+        a[class="active"]{
+            color: rgb(210, 39, 225);
+            text-decoration: underline;
+        }
+        a[target="_self"]{
+            background-color: rgb(175, 238, 123);
+        }
+
+        /* D */
+
+        p:last-of-type::after{
+            content: "...";
+        }
+
+        li::marker {
+            color: blue;
+        }
+        p:nth-of-type(2)::first-letter{
+            color: red;
+            font-size: 30px;
+            
+        }
