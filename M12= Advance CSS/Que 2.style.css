@@ -1,0 +1,60 @@
+        :root {
+            --a: 100px;
+        }
+
+        .container {
+            margin: 200px;
+        }
+
+        .cube {
+
+            transform: rotateX(25deg) rotateZ(25deg) rotateY(25deg);
+            transform: rotate3d(1, 1, 0, 45deg);
+
+            transform-style: preserve-3d;
+
+        }
+
+        .box {
+            background-color: rgba(0, 0, 255, 0.222);
+            width: var(--a);
+            height: var(--a);
+            border: 2px solid black;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #top {
+            transform:
+                translateY(-50px) rotateX(270deg);
+
+        }
+
+        #bottom {
+            transform: translateY(50px) rotateX(270deg);
+
+        }
+
+        #left {
+            transform: translateX(-50px) rotateY(270deg);
+
+        }
+
+        #right {
+            transform: translateX(50px) rotateY(270deg);
+
+        }
+
+        #front {
+            transform: translateZ(-50px);
+
+        }
+
+        #back {
+            transform: translateZ(50px);
+
+        }
+
+        
