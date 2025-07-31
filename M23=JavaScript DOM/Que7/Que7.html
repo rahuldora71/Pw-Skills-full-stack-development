@@ -1,0 +1,37 @@
+<!-- 
+Q7. Build a dynamic dropdown menu using HTML and JavaScript. 
+Create an HTML structure for a navigation menu with dropdowns. 
+Use JavaScript to toggle the visibility of dropdowns when the user hovers over menu items. 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que 7</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Que7style.css">
+</head>
+<body>
+<nav>
+    <ul class="menu">
+        <li class="menu-item"><a href="">Home</a></li>
+        <li class="menu-item"><a href="">About <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown">
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Our Story</a></li>
+            </ul>
+        </li>
+        <li class="menu-item"><a href="">Services <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown">
+                <li><a href="">Web Development</a></li>
+                <li><a href="">App Development</a></li>
+            </ul>
+        </li>
+        <li class="menu-item"><a href="">Contact</a></li>
+    </ul>
+    <script src="Que7script.js"></script>
+</body>
+</html>

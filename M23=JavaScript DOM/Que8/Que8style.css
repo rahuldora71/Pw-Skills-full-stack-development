@@ -1,0 +1,59 @@
+ *{
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .delete-btn {
+            background-color: #dc3545;
+            color: white;
+            border: white 1px solid;
+            padding: 5px 10px;
+            margin: 4px;
+            /* cursor: pointer; */
+
+            &:hover {
+                background-color: white;
+                color: #dc3545;
+                border: #dc3545 1px solid;
+            }
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .item-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+        .item-list li {
+            display: flex;
+            width: 60vw;
+            align-items: center;
+            flex-direction: row;
+            padding-left: 10px;
+            justify-content: space-between;
+
+        }
+        .item:nth-of-type(odd) {
+            background-color: #e1e6ec;
+        }

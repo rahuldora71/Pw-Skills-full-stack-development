@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Delegation Example</title>
+</head>
+<body>
+
+  <h2>To-Do List</h2>
+  <ul id="todo-list">
+    <li>Task 1 <button class="delete-btn">Delete</button></li>
+    <li>Task 2 <button class="delete-btn">Delete</button></li>
+    <li>Task 3 <button class="delete-btn">Delete</button></li>
+    <li>Task 4 <button class="delete-btn">Delete</button></li>
+    <li>Task 5 <button class="delete-btn">Delete</button></li>
+  </ul>
+  <script>
+    const todoList = document.getElementById('todo-list');
+    // Event delegation: listen for clicks on the parent <ul>
+    todoList.addEventListener('click', function(event) {
+      if (event.target.classList.contains('delete-btn')) {
+        event.target.parentElement.remove();
+      }
+    });
+  </script>
+
+</body>
+</html>
