@@ -1,0 +1,32 @@
+ body {
+            margin: 10;
+            padding: 0;
+            background-color: #cec9c9;
+        }
+  
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            justify-items: center;
+
+        }
+        .gallery img {
+            height: 500px;
+        }
+        
+
+        @media only screen and (max-width: 800px) {
+            .gallery {
+                grid-template-columns:repeat(2, 1fr); ;
+            }
+        }
+
+        @media only screen and  (max-width: 500px) {
+            .gallery{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }

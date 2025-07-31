@@ -1,0 +1,21 @@
+ .boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        .box {
+            color: white;
+            padding: 20px;
+            text-align: center;
+            height: 100px;
+        }
+        .box1 { background-color: #FF0000; }
+        .box2 { background-color: #008000; }
+        .box3 { background-color: #0000FF; }    
+        .box4 { background-color: #D2691E; }
+
+        @media only screen and (max-width: 800px) {
+            .boxes {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
