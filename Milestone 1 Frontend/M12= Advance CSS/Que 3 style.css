@@ -1,0 +1,30 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+
+.loader{
+    width: 300px;
+    height: 300px;
+    /* border: 6px solid #e1e1e1; */
+    /* border-top: 6px solid #3498db; */
+    /* border-radius: 50%; */
+    border: 10px solid;
+  border-image: url(https://png.pngtree.com/png-vector/20230120/ourmid/pngtree-neon-square-frame-clipart-png-image_6568438.png) 30 fill;
+    /* animation: spin 1s linear infinite; */
+}
+@keyframes spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

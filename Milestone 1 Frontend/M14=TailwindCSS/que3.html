@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3: Dashboard</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-gray-100">
+
+    <div class="flex h-screen">
+        
+        <div class="w-64 bg-gray-900 text-white p-6 flex flex-col">
+            <h1 class="text-2xl font-bold mb-8">Dashboard</h1>
+            
+            <nav class="flex-1">
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded bg-gray-700 text-white">
+                            <span class="mr-3">🏠</span>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                            <span class="mr-3">👥</span>
+                            Team
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                            <span class="mr-3">📁</span>
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                            <span class="mr-3">📅</span>
+                            Calendar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                            <span class="mr-3">📄</span>
+                            Documents
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                            <span class="mr-3">📈</span>
+                            Reports
+                        </a>
+                    </li>
+                </ul>
+
+                <h2 class="text-sm font-semibold text-gray-500 mt-8 mb-4 uppercase">
+                    Your Teams
+                </h2>
+                <ul class="space-y-2">
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                            <span class="mr-3">#</span>
+                            PW Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                            <span class="mr-3">#</span>
+                            PW Labs
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                            <span class="mr-3">#</span>
+                            PW OU
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <a href="#" class="flex items-center p-2 rounded hover:bg-gray-700">
+                    <span class="mr-3">👤</span>
+                    Profile
+                </a>
+            </div>
+        </div>
+        
+        <div class="flex-1 p-10">
+            <h2 class="text-3xl font-bold mb-6">Welcome to your Dashboard</h2>
+            <p class="text-gray-700">
+                This is the main content area. As requested, this dashboard is not responsive.
+                The sidebar will remain fixed, and the content will not reflow or stack on
+                smaller screens.
+            </p>
+            
+            <div class="grid grid-cols-3 gap-6 mt-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Projects</h3>
+                    <p class="text-gray-600">You have 3 active projects.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Team Members</h3>
+                    <p class="text-gray-600">There are 8 members in your teams.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="font-bold text-lg mb-2">Pending Documents</h3>
+                    <p class="text-gray-600">2 documents need your review.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
